@@ -130,9 +130,9 @@ return [
 
         'localized' => false,
 
-        'tables_searchable_default' => false,
+        'tables_searchable_default' => true,
 
-        'repository_pattern' => true,
+        'repository_pattern' => false,
 
         'excluded_fields' => ['id'], // Array of columns that doesn't required while creating module
     ],
@@ -168,7 +168,7 @@ return [
 
         'tests'         => true,
 
-        'datatables'    => false,
+        'datatables'    => true,
 
         'menu'          => [
 

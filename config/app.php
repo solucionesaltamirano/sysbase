@@ -176,6 +176,12 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        \infyom\Generator\InfyOmGeneratorServiceProvider::class,
+        \infyom\AdminLTETemplates\AdminLTETemplatesServiceProvider::class,
+        Yajra\DataTables\DataTablesServiceProvider::class,
+        Yajra\DataTables\HtmlServiceProvider::class,
+        Yajra\DataTables\ButtonsServiceProvider::class,
+
         
 
     ],
@@ -233,6 +239,8 @@ return [
         'Html' => Collective\Html\HtmlFacade::class,
         'Flash' => Laracasts\Flash\Flash::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
+
+        'DataTables' => Yajra\DataTables\Facades\DataTables::class,
     ],
 
 ];

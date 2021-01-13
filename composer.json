@@ -10,6 +10,7 @@
     "require": {
         "php": "^7.3|^8.0",
         "beyondcode/laravel-websockets": "^1.9",
+        "doctrine/dbal": "~2.3",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
@@ -18,7 +19,11 @@
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5",
         "laravel/ui": "3.0",
-        "laravelcollective/html": "^6.2"
+        "laravelcollective/html": "^6.2",
+        "yajra/laravel-datatables-buttons": "^4.6",
+        "yajra/laravel-datatables-html": "^4.4",
+        "yajra/laravel-datatables-oracle": "~9.0"
+
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.5",
